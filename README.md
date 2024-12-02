@@ -1,32 +1,25 @@
-# Module_3_Challenge
+# Python Banking Suite: Managing Savings & CD Accounts with Modular Design
 
-## Customer Banking Application
+## Overview
 
-### Overview
-  
-  This Python project is designed to manage savings and CD accounts, consisting of four key modules:
+The Python Banking Suite is designed to manage savings and certificate of deposit (CD) accounts using a modular design approach. This project leverages object-oriented programming (OOP) principles to create a flexible and scalable banking system.
 
-  Accounts.py: Defines the Account class, responsible for handling account details such as balance and interest.
+## Features
 
-  savings_account.py: Implements the functionality specific to savings accounts. It calculates interest and updates the account balance.
+- **Account Management**: Create and manage savings and CD accounts with unique attributes and methods.
+- **Modular Design**: The system is built using a modular design, allowing for easy maintenance and scalability.
+- **Interest Calculation**: Automatically calculate and apply interest to savings and CD accounts.
+- **Transaction Handling**: Support for deposits, withdrawals, and balance inquiries.
 
-  cd_account.py: Implements the functionality specific to CD accounts. It calculates interest and updates the account balance.
+## Getting Started
 
-  customer_banking.py: Orchestrates the main functionality by interacting with the user, utilizing the savings and CD account modules, and displaying results.
+### Prerequisites
 
-## How Modules Work Together
+- Basic knowledge of Python and object-oriented programming
+- Familiarity with financial concepts related to savings and CD accounts
 
-### Initialization with Account Class:
- 
-  Both savings_account.py and cd_account.py create instances of the Account class, initializing fundamental attributes such as balance, interest, and months.
-  Utilization of Specific Account Functionalities:
+### Installation
 
-  savings_account.py and cd_account.py utilize the shared Account class methods to set balances and interests specific to their account types.
-
-### Orchestrated User Interaction in customer_banking.py:
-
-  customer_banking.py orchestrates user interactions, prompting for user inputs, and calling functions from savings_account.py and cd_account.py to perform necessary calculations.
-
-### Display of Results:
-
-  The results, including interest earned and updated balances for both savings and CD accounts, are then displayed to the user.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/johnparente97/Python-Banking-Suite-Managing-Savings-CD-Accounts-with-Modular-Design.git
