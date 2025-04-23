@@ -46,4 +46,3 @@ The Python Banking Suite is designed to manage savings and certificate of deposi
 
 - The modular design of the Python Banking Suite allows for easy scalability. New account types or features can be added without significant changes to the existing codebase. This flexibility makes the system adaptable to future requirements and enhancements.
 
-## Acknowledgments
